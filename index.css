@@ -145,7 +145,7 @@ body {
     
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -333,7 +333,7 @@ body {
 
 
 @media(max-width: 380px) {
-    
+
     .contact-form {
         bottom: 0;
         right: 0;
