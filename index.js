@@ -16,6 +16,10 @@ $(document).ready(() => {
         $(".contact-form").toggle()
     })
 
+    $(".mobile-navbar button").click(() => {
+        $(".contact-form").toggle()
+    })
+
     $("#submitcontact").hide();
 
     function validateName() {
