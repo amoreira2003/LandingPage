@@ -123,6 +123,12 @@
 .mark.green {
     color: #8ac740;
     background: none;
+    transition: 150ms ease-in;
+}
+
+.mark.green:hover {
+    color: white;
+
 }
 
 .mark.red {

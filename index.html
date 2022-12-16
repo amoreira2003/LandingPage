@@ -7,6 +7,9 @@
     <title>Nature</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
 </head>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -14,53 +17,61 @@
 
 <body>
     <div class="header">
-        
+
 
         <ul class="navbar">
             <img width="256px" height="100px" class="logo" src="./images/logo.png">
             <li><a href="#">Who are we?</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">FAQ</a></li>
-            <button onclick=""><h1>Contact Us!</h1></button>
+            <button>
+                <h1>Contact Us!</h1>
+            </button>
         </ul>
 
-     </div>
+    </div>
 
-     <div class="mobile-navbar">
-            
+    <div class="mobile-navbar">
+
         <img width="256px" height="100px" class="logo" src="./images/logo.png">
         <div class="dropdown-icon"></div>
         <ul class="dropdown-navbar">
-        <li><a href="#">Who are we?</a></li><br>
-        <li><a href="#">Blog</a></li><br>
-        <li><a href="#">FAQ</a></li><br>
-        <button onclick=""><h1>Contact Us!</h1></ul>
-    </ul>
+            <li><a href="#">Who are we?</a></li><br>
+            <li><a href="#">Blog</a></li><br>
+            <li><a href="#">FAQ</a></li><br>
+            <button>
+                <h1>Contact Us!</h1>
+        </ul>
+        </ul>
     </div>
 
-        <div class="featured">
-            
-            <div class="block1">
+    <div class="featured">
+
+        <div class="block1">
             <h1>Unlock Your <mark class="mark green">Sales</mark> Potential with Nature</h1>
             <br>
-            <h2>Best <mark class="mark green">Marketplace</mark> for <mark class="mark green">Farmers</mark><h2/>
-            <button><h1>Contact Us!</h1></button>
+            <h2>Best <mark class="mark green">Marketplace</mark> for <mark class="mark green">Farmers</mark>
+                <h2 />
+                <button>
+                    <h1>Contact Us!</h1>
+                </button>
         </div>
         <div class="block2">
             <img src="./images/market.svg" alt="marketsvg">
         </div>
 
         <form class="contact-form">
-            <img class="closebutton" src ='./images/closecross.svg' alt="closecross">
+            <img class="closebutton" src='./images/closecross.svg' alt="closecross">
             <img class="big-image" src="./images/contact.svg" alt="contact">
 
             <br>
-            <label for="fn">Full Name <mark class="mark red">*</mark></label><input id="nameinput" name="fn" type="text">
+            <label for="fn">Full Name <mark class="mark red">*</mark></label><input id="nameinput" name="fn"
+                type="text">
 
-            <label for="em">Email <mark class="mark red">*</mark></label><input id="emailinput"  type="email" name="em" >
+            <label for="em">Email <mark class="mark red">*</mark></label><input id="emailinput" type="email" name="em">
 
-            <label for="cel">Contact Number</label><input id="celinput" maxlength="11"  name="cel" type="tel">
-            <input id="submitcontact" class="submit" type="submit"> 
+            <label for="cel">Contact Number</label><input id="celinput" maxlength="11" name="cel" type="tel">
+            <input id="submitcontact" class="submit" type="submit">
         </form>
 </body>
 
