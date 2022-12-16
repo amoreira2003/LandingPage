@@ -22,6 +22,11 @@ $(document).ready(() => {
 
     $("#submitcontact").hide();
 
+
+    $(".closebutton").click(() => {
+        $(".contact-form").hide()
+    })
+
     function validateName() {
     let nameInputValue =  $("#nameinput").val();
 
