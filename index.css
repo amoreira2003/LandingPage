@@ -60,7 +60,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 1.4rem;
-    transition: 300ms ease-out;
+    transition: 200ms ease-out;
 }
 
 .navbar a:hover {
@@ -123,7 +123,7 @@
 .mark.green {
     color: #8ac740;
     background: none;
-    transition: 150ms ease-in;
+    transition: 150ms ease-out;
 }
 
 .mark.green:hover {
