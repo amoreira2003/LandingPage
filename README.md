@@ -7,7 +7,7 @@
 
 ## 🤗 Introdução
 
-Esse repositório contem a Landing Page de Empresa Fictícia
+Esse repositório contem a **Landing Page** de **Empresa Fictícia**
 <br>
 
 
