@@ -1,10 +1,24 @@
-# 📚 Descrição 
+<div align="center">
+<img src="./landingpagebanner.png" width="500" height="187.5">
 
-O projeto consta com uma landing page para uma empresa fictícia de marketplace.
 
-A Pagina é utilizada para captar informações sobre o possível cliente, e estabelecer contato entre a empresa e o mesmo.
+<div align="start">
 
-Você pode conferir o projeto <a href="https://amoreira2003.github.io/LandingPage/">aqui</a>
-# 🧰 Tecnologias
 
-HTML, CSS, JS, JQuery
+## 🤗 Introdução
+
+Esse repositório contem a Landing Page de Empresa Fictícia
+<br>
+
+
+## ⚔️ Sobre o Projeto
+
+Esse projeto foi feito com WebPack e <a href="" target="_blank">jQuery</a>. <br> 
+
+Você pode conferir o projeto <a href="https://amoreira2003.github.io/LandingPage/">aqui!</a>
+
+A <a href="https://github.com/amoreira2003/LandingPage" target="_blank">landing Page</a> é um projeto para meu <a href="https://github.com/amoreira2003" target="_blank">portfólio</a> de **Front-End**
+
+  <div>
+<div>
+
