@@ -13,7 +13,7 @@ Esse repositório contem a Landing Page de Empresa Fictícia
 
 ## ⚔️ Sobre o Projeto
 
-Esse projeto foi feito com WebPack e <a href="" target="_blank">jQuery</a>. <br> 
+Esse projeto foi feito com **HTML**, **CSS** e **JavaScript** com <a href="" target="_blank">jQuery</a>. <br> 
 
 Você pode conferir o projeto ao vivo <a href="https://amoreira2003.github.io/LandingPage/">aqui!</a>
 
