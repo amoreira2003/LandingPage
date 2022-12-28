@@ -22,6 +22,16 @@ $(document).ready(() => {
 
     $("#submitcontact").hide();
 
+    $(".contact-form").submit(function (e)  { 
+       $("#nameinput").val("");
+       $("#emailinput").val("");
+       $("#celinput").val("");
+       $(".contact-form").hide()
+
+        alert("Contato Enviado");
+        e.preventDefault();
+        
+    });
 
     $(".closebutton").click(() => {
         $(".contact-form").hide()
@@ -36,13 +46,13 @@ $(document).ready(() => {
 
     function validateEmail() {
         let emailInputValue =  $("#emailinput").val();
-        return emailInputValue.length > 0 && emailInputValue !== ""  && emailInputValue.includes(".")  && emailInputValue.includes("@")? true : false
+        let pattern = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i;
+
+        return emailInputValue.length > 0 && emailInputValue !== ""  && pattern.test(emailInputValue) ? true : false
     }
 
     function validateTel() {
         let celInputValue =  $("#celinput").val();
-
-
         return (celInputValue.length <= 11 ? true : false)
     }
 

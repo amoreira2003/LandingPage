@@ -227,10 +227,8 @@ body {
 
 .contact-form .closebutton {
     fill: gray;
-    position: relative;
-    top: 0;
-    left: 0;
     width: 5%;
+    margin-left: auto;
 }
 
 .dropdown-navbar {
@@ -400,6 +398,7 @@ body {
         left: 0;
         top: 0;
         width: 100%;
+        
         height: auto;
         align-items: center;
     }
